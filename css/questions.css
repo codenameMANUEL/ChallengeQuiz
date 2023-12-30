@@ -1,0 +1,134 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #f7e0d7;
+}
+.profile-and-timer{
+    display: flex;
+    justify-content: space-between;
+    margin: 30px;
+}
+.profile-and-timer > div p{
+    font-size: 20px;
+    font-weight: 700;
+}
+@keyframes fadeInOut {
+    0%, 100% {
+        opacity: 0;
+    }
+    50% {
+        opacity: 1;
+    }
+}
+.time-signal{
+    animation: fadeInOut 3s infinite;
+}
+/*
+.question > div {
+    display: flex;
+    justify-content: center ;
+    align-items: center;
+}
+.question-block{
+    background-color: #e9eef3;
+    width: 600px;
+}
+.options{
+    display: flex;
+    margin: 10px 30px;
+    height: 40px;
+}
+.options p{
+    margin: 11px 0px 0px 10px;
+}
+.options :input[type="checkbox"]{
+    display: none;
+}
+.question-block{
+    border-radius: 10px;
+}
+.question-block > p{
+    font-size: 20px;
+    padding: 20px 28px;
+}
+.btn{
+    display: flex;
+    justify-content: end;
+    margin: 20px 50px;   
+}
+.btn button{
+    padding: 10px 25px;
+    border-radius: 5px;
+    border: 1px solid black;
+}
+.btn button:hover{
+    background-color: #81bbf5;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+} */
+
+.app{
+    background: #f2c7b5;
+    width: 90%;
+    max-width: 600px;
+    margin: 45px auto 0;
+    border-radius: 10px;
+    padding: 10px;
+    
+}
+
+.app h1{
+    font-size: 25px;
+    font-weight: 600;
+    border-bottom: 1px solid #333;
+    padding-bottom: 30px;
+}
+.quiz{
+    padding: 20px 0;
+}
+.quiz h2{
+    font-size: 18px;
+    color: #001e4d;
+    font-weight: 600;
+}
+.btn{
+    background: #fff;
+    color: #222;
+    font-weight: 500;
+    width: 100%;
+    border: 1px solid #222;
+    padding: 10px;
+    margin: 10px 0;
+    text-align: left;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+.btn:hover:not([disabled]){
+    background: #222;
+    color: #fff;
+}
+.btn:disabled{
+    cursor: no-drop;
+}
+#next-btn{
+    background: #8d4a2e;
+    color: #fff;
+    font-weight: 500;
+    width: 150px;
+    border: 0;
+    padding: 10px;
+    margin: 20px auto 0;
+    border-radius: 4px;
+    cursor: pointer;
+    display: none;
+}
+.correct{
+    background: #9aeabc;
+}
+.incorrect{
+    background: #ff9393;
+}
