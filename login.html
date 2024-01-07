@@ -11,14 +11,18 @@
         <div class="form-input">
             <form action="">
                 <div class="school-name">
-                    <textarea name="" id=" regSchoolName" cols="30" rows="2" placeholder="Name of school*" required ></textarea> 
+                    <textarea name="" id="studentNameLogin" cols="30" rows="2" placeholder="Name of student"  ></textarea> 
                 </div>
                 <div class="student-name">
-                    <input type="text" name="" id=" regStudentName" placeholder="Password" required>
+                    <input type="text" name="" id="studentPasswordLogin" placeholder="Password">
                 </div>
-                    <button class="btn-enroll-student" id="login">LOGIN</button>
+                    <div>
+                        <p id="errormsg"></p>
+                    </div>
+                    <button class="btn-enroll-student" id="loginBtn">LOGIN</button>
             </form>
         </div>
     </div>
+    <script src="login.js"></script>
 </body>
 </html>

@@ -89,10 +89,15 @@ nav{
     background-color: #f7e0d7;
     padding-bottom: 50px;
 }
-.register > div{
+/* .register > div{
     text-align: center;
     padding-top: 30px;
     color: #8d4a2e;
+} */
+.intro-text-register{
+    text-align: center;
+    color: #8d4a2e;
+    padding: 30px 0;
 }
 .form-input{
     display: flex;
@@ -111,6 +116,7 @@ form{
     border-bottom: 1px solid #8d4a2e;
     background-color: transparent;
     outline: none;
+    margin: 0 60px;
 }
 .student-name input{
     width: 400px;
@@ -118,6 +124,7 @@ form{
     border-bottom: 1px solid #8d4a2e;
     background-color: transparent;
     outline: none;
+    margin: 0 60px;
 }    
 .student-name{
     padding-top: 25px;
@@ -126,8 +133,8 @@ form{
     display: flex;
     justify-content: center;
 }   
-.btn-enroll-student{
-    margin-top: 40px;
+.btn-enroll-student {
+    margin-top: 18px;
     padding: 10px 142px;
     border: none;
     background-color: #8d4a2e;
@@ -135,6 +142,8 @@ form{
     cursor: pointer;
     border: 1px solid #8d4a2e;
     border-radius: 5px;
+    margin-left: 56px;
+    margin-top: 20px;
 }
 .btn-enroll-student:hover{
     background-color: #e9eef3;
@@ -156,8 +165,10 @@ form{
 .intro-text-register{
     font-size: 20px;
 }
-.login{
+.login {
     padding-top: 10px;
+    display: flex;
+    justify-content: center;
 }
 .login a{
     text-decoration: none;

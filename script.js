@@ -137,11 +137,13 @@ function startQuiz(){
     showQuestion();
 }
 
+let count = 0;
 function showQuestion(){
     resetState();
     let currentQuestion = questions[currentQuestionIndex];
-    let questionNo = currentQuestion + 1;
-    questionElement.innerHTML = questionNo + ". " + currentQuestion.question;
+    let questionNo = count + 1;
+    count++;
+    questionElement.innerHTML = questionNo + ". " +currentQuestion.question;
 
     currentQuestion.answers.forEach(answer =>{
         const button = document.createElement("button");

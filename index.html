@@ -43,18 +43,24 @@
         </div>
         <div class="form-input">
             <form action="">
+                <div id="errorSchoolName"></div>
                 <div class="school-name">
-                    <textarea name="" id="schoolName" cols="30" rows="2" placeholder="Name of school*" required ></textarea> 
+                    <textarea name="" id="schoolName" cols="30" rows="2" placeholder="Name of school*" ></textarea>     
                 </div>
+                <div id="errorStudentName"></div>
                 <div class="student-name">
-                    <input type="text" name="" id="studentName" placeholder="Name of student*" required>
+                    <input type="text" name="" id="studentName" placeholder="Name of student*" >
+                </div>
+                <div id="errorpassword"></div>
+                <div class="student-name">
+                    <input type="text" name="" id="PasswordReg" placeholder="Password"  >
                 </div>
                     <button class="btn-enroll-student" id="btnEnroll">ENROLL STUDENT</button>
                     <div class="login">
                          <a href="login.html">LOGIN</a>
                     </div>
                     <div class="terms-and-condition">
-                        <input type="checkbox" name="" id="termsCheckbox" required>
+                        <input type="checkbox" name="" id="termsCheckbox" >
                         <p>By siginng up I agree with <span>terms of use</span> and <span>privacy policy</span></p>
                     </div>
             </form>
